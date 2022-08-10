@@ -1,0 +1,409 @@
+// Rules for the App.css entry point
+
+#header .header-right>div#contactsmenu>.menu .contact :last-of-type {
+    border-bottom: none;
+    background-color: rgb(255 255 255 / 70%);
+    //background-color: solid white;
+}
+
+
+
+
+
+
+body {
+	background-image: url('../img/logo1.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 50%;
+
+	//overflow: hidden;
+	--color-background-hover: #b3b3b347;
+	//--color-backgound-hover: #c4ccd1bd;
+        color: black;
+        background-color: white;
+
+
+.app-content[data-v-6955dd74] {
+    position: relative;
+    z-index: 1000;
+    flex-basis: 100vw;
+    min-width: 0;
+    min-height: 100%;
+    margin: 0 !important;
+    background-color: #ffffff8a;
+}
+.message-body__main__text {
+    flex: 0 1 600px;
+    color: black;
+}
+
+
+#app-sidebar {
+    width: 27vw;
+    min-width: 300px;
+    max-width: 500px;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1500;
+    height: calc(100vh - 50px);
+    background: var(--color-main-background);
+    //border-left: 1pxsolidvar(--color-border);
+    flex-shrink: 0;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+
+
+
+
+
+.wrapper--system[data-v-2c401b45] {
+    padding-left: 173px;
+}
+
+.container {
+        width: 100px;
+        flex-direction: row;
+        box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+#app-settings {
+	color: #fff;
+	margin-top: auto;
+        border-top: 2px solid;
+        //border-right: 2px solid;
+        border-left: 2px solid;
+    //border-bottom: 2px solid;
+}
+
+
+
+#emptycontent h2, .emptycontent h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+#emptycontent, .emptycontent {
+    color: #000;
+    text-align: center;
+    margin-top: 30vh;
+    width: 100%;
+}
+
+.icon-talk {
+    background-image: var(--icon-spreed-app-dark-000);
+}
+
+.message-body__main__text.system-message[data-v-5f54830a] {
+    color: var(--color-text-maxcontrast);
+    text-align: center;
+    //color: white;
+}
+
+.message-body__main__text[data-v-5f54830a] .rich-text--wrapper {
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: black;
+}
+
+
+
+#app-settings-header .settings-button {
+    display: block;
+    height: 44px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    background-image: var(--icon-settings-dark-fff);
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    padding-left: 44px;
+    font-weight: normal;
+    font-size: 100%;
+    opacity: 1;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.message-body__main__right[data-v-5f54830a] {
+    //justify-self: end;
+    //justify-content: end;
+    //position: relative;
+    //user-select: none;
+    //display: flex;
+    //body .message-body__main__right[data-v-5f54830a] {
+    //justify-self: end;
+    //position: relative;
+    color: green;
+    align-items: end;
+    font-size: 11px;
+    //font-size: 15px;
+    //flex: 0 0 auto;
+    //padding: 0 9px 0 10px;
+
+}
+
+
+
+.message {
+        //margin-left: auto;
+        text-align: left;
+        font-weight: 600;
+        //clear: both;
+        //line-height: 18px;
+        font-size: 18px;
+        //padding: 8px;
+        //position: absolute;
+        //margin: 8px 0;
+        //max-width: 85%;
+        //word-wrap: break-word;
+        //z-index: -1;
+        background-color: #b3b3b3;
+
+        //padding: 5px;
+        //color: white;
+        width: fit-content;
+        border-radius: 10px;
+        margin-bottom: 15px;
+}
+
+
+
+
+
+
+.new-message-marker span[data-v-5f54830a] {
+        background-color: white;
+        text-decoration: underline;
+
+}
+
+
+.message-body__author[data-v-5f54830a] {
+    color: #001fff;
+}
+
+.message-body__main__text[data-v-5f54830a] {
+    flex: 0 1 600px;
+    color: black;
+}
+
+
+
+
+
+.message-status[data-v-5f54830a] {
+    margin: -8px 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: red;
+}
+
+
+.message-status[data-v-5f54830a]:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.message-status[data-v-5f54830a] div {
+        float: right;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 0 0 8px;
+        font-weight: 600;
+}
+
+
+
+
+:root {
+        --color-background-hover: #79777757;
+        --color-background-dark: #f9f9f999;
+
+
+}
+
+
+.wrapper {
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+    padding: 20px 10px 38px 18px;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+
+
+
+
+.message-buttons-bar[data-v-3ed3d135] {
+        display: flex;
+        left: 100px;
+        //top: 50px;
+        //right: -32px;
+        bottom: -0px;
+
+        position: relative;
+        //margin-top: -13px;
+        background-color: #0000003d;
+        box-shadow: var(--color-box-shadow);
+        //border-radius: -10px;
+        //box-shadow: 0 0 10px var(--color-box-shadow);
+}
+
+
+
+
+
+/*.list-item__wrapper[data-v-794e5cc0] {
+    position: relative;
+    width: 100%;
+    //box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 74%);
+    box-shadow: 4px 4px 4px 1px rgb(0 0 0 / 79%);
+    //border-radius: 10px;
+}*/
+
+.app-navigation[data-v-36d636e7] {
+    will-change: transform;
+    transition: transform var(--animation-quick),margin var(--animation-quick);
+    width: 300px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+    left: 0;
+    z-index: 1800;
+    height: calc(100vh - 50px);
+    box-sizing: border-box;
+    background-color: var(--color-main-background);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.wrapper--system[data-v-2c401b45] {
+    padding-left: 250px;
+}
+
+#app-settings-header .settings-button {
+    display: block;
+    height: 44px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    /* color: white; */
+    background-image: var(--icon-settings-dark-fff);
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    padding-left: 44px;
+    font-weight: normal;
+    font-size: 100%;
+    opacity: 1;
+    color: #fff;
+}
+
+
+#app-settings-header {
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+
+
+
+.profile__header[data-v-6311e07c] {
+    position: sticky;
+    height: 190px;
+    top: -40px;
+    background-color: black;
+}
+
+
+.body{
+
+        padding: 20px,30px;
+        background-color: rgba(0,0,0,0.7);
+}
+
+}
+    
+
+
+/* FIXME: remove after https://github.com/nextcloud/nextcloud-vue/issues/2097 is solved */
+.mx-datepicker-main.mx-datepicker-popup {
+	z-index: 10001 !important;
+}
+
+
+
+body .message-body__author[data-v-5f54830a] {
+    color: #2000ff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body.action-item--single[data-v-556042d1] {
+    opacity: 1;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1024px)
+.profile__header[data-v-6311e07c] {
+    height: 250px;
+    position: unset;
+    background-color: black;
+}
+
+
